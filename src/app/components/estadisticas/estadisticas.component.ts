@@ -1,3 +1,24 @@
+/*4.1 Identificacion de Archivos
+
+1. ¿En que archivo se define la interfaz de juego?
+Respuesta: src/app/interfaces/juego.interface.ts
+
+2. ¿Qué archivo maneja el estado global de los filtros?
+Respuesta: src/app/components/filtros/filtros.component.ts
+
+3. ¿Dónde se configura el HttpClient para la aplicación?
+Respuesta: src/app/app.config.ts
+*/
+
+/*4.2 Comprension de Arquitectura
+
+1. ¿Por qué este proyecto NO tiene app.module.ts?
+Respuesta: Porque usa componentes standalone, con esto no es necesario crear modulos.
+
+2. ¿Qué ventaja tiene usar BehaviorSubject en el servicio de juegos?
+Respuesta: Permite mantener el estado actual de los juegos y emitirlo automáticamente a los componentes que se suscriben.
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -44,8 +65,3 @@ export class EstadisticasComponent implements OnInit {
   }
 }
 
-//¿En que archivo se define la interfaz de juego?
-//En el archivo de interfaces, juego.interface.ts
-
-//2. ¿Qué archivo maneja el estado global de los filtros?
-//Respuesta:
