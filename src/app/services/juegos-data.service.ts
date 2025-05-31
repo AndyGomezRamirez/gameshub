@@ -86,4 +86,10 @@ export class JuegosDataService {
       )
     );
   }
+
+  obtenerJuegosPorPrecio(min: number, max: number): Observable<Juego[]>{
+    return this.juegos$.pipe(
+
+      )
+  }
 }
