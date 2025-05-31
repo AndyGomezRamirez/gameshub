@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nombre": "Fortnite",
-      "imagen": "https://cdn2.unrealengine.com/fortnite-og-social-share-1920x1080-685342852.jpg",
+      "imagen": "https://cdn1.epicgames.com/offer/fn/FNBR_35-00_C6MS1_EGS_Launcher_KeyArt_FN_Blade_1200x1600_1200x1600-e719f30dab7ce36061140a7564119448",
       "categoria": "Battle Royale",
       "desarrollador": "Epic Games",
       "fechaLanzamiento": "2017-07-25",
@@ -107,7 +107,7 @@
     {
       "id": 4,
       "nombre": "Valorant",
-      "imagen": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3f072336e3f3ade4/63096d7be4a8c30e088e7720/Valorant_2022_E5A2_PlayVALORANT_ContentStackThumbnail_1200x625_MB01.png",
+      "imagen": "https://www.riotgames.com/darkroom/1440/8d5c497da1c2eeec8cffa99b01abc64b:5329ca773963a5b739e98e715957ab39/ps-f2p-val-console-launch-16x9.jpg",
       "categoria": "FPS",
       "desarrollador": "Riot Games",
       "fechaLanzamiento": "2020-06-02",
@@ -141,7 +141,7 @@
     {
       "id": 5,
       "nombre": "Genshin Impact",
-      "imagen": "https://genshin.hoyoverse.com/_nuxt/img/home-poster-5th.59eb9e9.jpg",
+      "imagen": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc",
       "categoria": "RPG",
       "desarrollador": "miHoYo",
       "fechaLanzamiento": "2020-09-28",
@@ -175,7 +175,7 @@
     {
       "id": 6,
       "nombre": "FIFA 24",
-      "imagen": "https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/images/2023/07/fc24-ultimate-edition-standard-kylian-mbappe.jpg.adapt.crop16x9.1455w.jpg",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/4248a0d1a669210e5caf5174eda176c7883be2c9089fa106.png",
       "categoria": "Sports",
       "desarrollador": "EA Sports",
       "fechaLanzamiento": "2023-09-29",
@@ -209,7 +209,7 @@
     {
       "id": 7,
       "nombre": "Free Fire",
-      "imagen": "https://ffwebsite.garena.com/id/wp-content/uploads/sites/12/2021/12/thumb.jpg",
+      "imagen": "https://cdn12.idcgames.com/storage/image/1258/free-new-logo/default.jpg",
       "categoria": "Battle Royale",
       "desarrollador": "Garena",
       "fechaLanzamiento": "2017-12-08",
@@ -277,7 +277,7 @@
     {
       "id": 9,
       "nombre": "Counter-Strike 2",
-      "imagen": "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/header.png",
+      "imagen": "https://cde.3.elcomercio.pe/img/0/1/7/2/5/1725944.jpg",
       "categoria": "FPS",
       "desarrollador": "Valve",
       "fechaLanzamiento": "2023-09-27",
@@ -311,7 +311,7 @@
     {
       "id": 10,
       "nombre": "Apex Legends",
-      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/articles/apex-legends-ignite-launch/apex-section-bg-xl.jpg.adapt.1920w.jpg",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202504/2813/6b9d6917931f6b46f1e6d537f817840b0ade39d7efce3259.png",
       "categoria": "Battle Royale",
       "desarrollador": "Respawn Entertainment",
       "fechaLanzamiento": "2019-02-04",
@@ -345,7 +345,7 @@
     {
       "id": 11,
       "nombre": "PUBG Mobile",
-      "imagen": "https://www.pubgmobile.com/images/event/home/pubgm_home_bg.jpg",
+      "imagen": "https://play-lh.googleusercontent.com/un5n8qOi9ylhMdrb3Ti2mEZEr4DmxoVqugQn4WfaVD_oa7QskWj7m2buovFqCTq2hQ=w240-h480-rw",
       "categoria": "Battle Royale",
       "desarrollador": "PUBG Corporation",
       "fechaLanzamiento": "2018-03-19",
@@ -447,7 +447,7 @@
     {
       "id": 14,
       "nombre": "NBA 2K24",
-      "imagen": "https://nba2k24.2k.com/assets/images/nba2k24-kobe-bg.jpg",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202306/2609/4e2470cab2b54eb6d69bada84bac6d65df090605cfc16ee6.jpg",
       "categoria": "Sports",
       "desarrollador": "Visual Concepts",
       "fechaLanzamiento": "2023-09-08",
@@ -481,7 +481,7 @@
     {
       "id": 15,
       "nombre": "Mobile Legends",
-      "imagen": "https://play-lh.googleusercontent.com/Qxcg8RNAS9l_VUxHNPifSKHq0FRCPaVZCETd1jUPxFPf0fBBKEEtQZsJx2fH-K1yFg",
+      "imagen": "https://sm.ign.com/ign_za/screenshot/default/mobile-legends-bang-bang_4yuj.png",
       "categoria": "MOBA",
       "desarrollador": "Moonton",
       "fechaLanzamiento": "2016-07-14",
@@ -523,7 +523,7 @@
       "rating": 4.5,
       "plataformas": ["PlayStation", "PC"],
       "precio": 69.99,
-      "esGratis": true,
+      "esGratis": false,
       "requisitos": {
         "minimos": {
           "os": "Android 4.1 / iOS 9.0",
@@ -557,7 +557,7 @@
       "rating": 4.9,
       "plataformas": ["Nintendo Switch"],
       "precio": 59.99,
-      "esGratis": true,
+      "esGratis": false,
       "requisitos": {
         "minimos": {
           "os": "Android 4.1 / iOS 9.0",

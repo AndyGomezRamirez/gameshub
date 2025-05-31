@@ -1,1 +1,12 @@
-<p>estadisticas works!</p>
+<h2 class="titule">ESTADÍSTICA DE JUEGOS</h2>
+
+<div class="estadisticas-contain" *ngIf="estadisticas">
+  <label>Total de Juegos en la plataforma: {{ estadisticas.juegoTotal }} </label><br>
+  <label>Juegos Gratuitos: {{ estadisticas.juegosGratis }}</label><br>
+  <label>Juegos de Paga: {{ estadisticas.juegosdePago }}</label><br>
+  <label>
+    Juego con mejor Rating: 
+    {{ estadisticas.mejorRating.nombre }} ({{ estadisticas.mejorRating.rating }})
+  </label><br>
+  <label>Promedio de precios: {{ estadisticas.promPrecio | currency:'USD' }}</label>
+</div>

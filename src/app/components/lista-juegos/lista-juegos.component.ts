@@ -7,6 +7,7 @@ import { Juego } from '../../interfaces/juego.interface';
 import { JuegosDataService } from '../../services/juegos-data.service';
 import { TarjetaJuegoComponent } from '../tarjeta-juego/tarjeta-juego.component';
 import { FiltrosComponent } from '../filtros/filtros.component';
+import { take } from 'rxjs';
 
 @Component({
   selector: 'app-lista-juegos',
@@ -18,6 +19,9 @@ import { FiltrosComponent } from '../filtros/filtros.component';
 export class ListaJuegosComponent implements OnInit {
   juegos$!: Observable<Juego[]>;
   juegosFiltrados$!: Observable<Juego[]>;
+  ordenSeleccionado: string = '';
+  juegosOrdenados: Juego[] = [];
+
   
   private filtrosSubject = new BehaviorSubject<any>({
     busqueda: '',
@@ -127,4 +131,30 @@ export class ListaJuegosComponent implements OnInit {
       categoria: this.categoriaSeleccionada
     });
   }
+
+  ordenarJuegos() {
+  this.juegos$.pipe(take(1)).subscribe(juegos => {
+    let juegosOrdenados = [...juegos];
+
+    switch (this.ordenSeleccionado) {
+      case 'nombre-asc':
+        juegosOrdenados.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        break;
+      case 'nombre-desc':
+        juegosOrdenados.sort((a, b) => b.nombre.localeCompare(a.nombre));
+        break;
+      case 'precio-asc':
+        juegosOrdenados.sort((a, b) => a.precio - b.precio);
+        break;
+      case 'precio-desc':
+        juegosOrdenados.sort((a, b) => b.precio - a.precio);
+        break;
+      case 'rating-desc':
+        juegosOrdenados.sort((a, b) => b.rating - a.rating);
+        break;
+    }
+
+    this.juegosOrdenados = juegosOrdenados;
+  });
+}
 }
